@@ -33,27 +33,28 @@ Customers on a shared group plan pay noticeably less per month than customers wi
 ![inage alt](https://github.com/Nintencode/Power-BI-Case-Study-Analyzing-Customer-Churn/blob/main/Churn%20by%20Monthy%20Charge%20and%20Groups%20Graph.png)
 
 ### Unlimited data plans
-Somewhat counterintuitively, customers on an unlimited data plan churn more than those without one, 32 percent versus 16 percent. That pattern holds even after breaking usage into consumption tiers, so the unlimited plan itself seems tied to churn risk rather than how much data someone actually uses.
+Somewhat counterintuitively, customers on an unlimited data plan churn more than those without one, 32 percent versus 16 percent. That pattern holds even after breaking usage into consumption tiers, so the unlimited plan itself seems tied to churn risk rather than how much data someone actually uses. However, those that use over 10 GB of data on average are slightly more likely to be retained.
 
-![Churn rate for unlimited vs limited data plans](images/05_churn_unlimited_plan.png)
+![image alt](https://github.com/Nintencode/Power-BI-Case-Study-Analyzing-Customer-Churn/blob/main/Churn%20for%20Unlimited%20Plan%20Dashboard.png)
 
 ### International plans and geography
-Customers who have an international plan but are not actively using it churn at a very high rate, over 71 percent, while customers who are actively using their international plan churn far less. Geographically, churn is fairly consistent across most states, with one state standing out with a noticeably higher rate.
+Customers who have an international plan but are not actively using it churn at a very high rate, over 71 percent, while customers who are actively using their international plan churn far less. Geographically, churn is fairly consistent across most states, with one state, California, standing out with a noticeably higher rate of 63.24%.
 
-![International plan activity and churn by state](images/06_intl_plan_and_map.png)
+![image alt](https://github.com/Nintencode/Power-BI-Case-Study-Analyzing-Customer-Churn/blob/main/Churn%20by%20Int%20Plan%20and%20State%20Dashboard.png)
 
 ### Account tenure and payment method
 Churn rate drops sharply the longer a customer has been with Databel, especially in the first 20 to 30 months, and month to month contract customers show much more volatile, consistently higher churn across all tenures compared to one and two year contracts. On payment method, direct debit and credit card together make up the large majority of customers, with paper check a small minority.
 
-![Churn rate by account length and payment method](images/07_account_length_payment_method.png)
+![image alt](https://github.com/Nintencode/Power-BI-Case-Study-Analyzing-Customer-Churn/blob/main/Account%20Length%20and%20Payment%20Method%20Dashboard%20(Contract%20Type).png)
 
 ### Customer service calls
 Customers who churned averaged noticeably more customer service calls than those who did not, and this pattern held consistently across states, suggesting call volume is a usable early signal of churn risk.
+![image alt](https://github.com/Nintencode/Power-BI-Case-Study-Analyzing-Customer-Churn/blob/main/Customer%20Service%20Calls%20and%20Other%20Insights%20Dashboard.png)
 
 ## Overview dashboard
-The final report pulls the key metrics and visuals together into a single summary page, giving a full picture of total customers, churn rate, churn reasons and categories, contract type mix, and churn by state in one view.
+The final report pulls the key metrics and visuals together into a single summary page, giving a full picture of total customers, churn rate, churn reasons and categories, contract type, and churn by state in one view.
 
-![Overview dashboard](images/01_overview_dashboard.png)
+![image alt](https://github.com/Nintencode/Power-BI-Case-Study-Analyzing-Customer-Churn/blob/main/Churn%20Analysis%20Overview%20Dashboard.png)
 
 ## Takeaways
 
