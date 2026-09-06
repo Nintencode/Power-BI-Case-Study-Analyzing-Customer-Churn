@@ -19,17 +19,18 @@ Looking at churn reasons and categories together, competitor activity is the cle
 ![image alt](https://github.com/Nintencode/Power-BI-Case-Study-Analyzing-Customer-Churn/blob/main/Churn%20Rate%20and%20Reasons%20Dashboard.png)
 
 ### Age and demographics
-Churn rises steadily with age. Senior customers churn at about 38 percent, compared to roughly 23 to 25 percent for younger groups. Breaking age into 10 year bins made the trend even clearer, churn rate climbs fairly steadily from the 20s through the 70s and 80s, even though the customer base itself is concentrated in the 20 to 50 range.
+Churn rises steadily with age. Senior customers churn at about 38 percent, compared to roughly 23 to 25 percent for younger groups. Breaking age into 10 year bins made the trend even clearer. Churn rate climbs fairly steadily from the 20s through 50s, with a noticeable jump in the 60s and up, even though the customer base itself is concentrated in the 20 to 50 range.
 
-![Churn rate by age bins](images/03_churn_by_age_bins.png)
+![image alt](https://github.com/Nintencode/Power-BI-Case-Study-Analyzing-Customer-Churn/blob/main/Churn%20by%20Age%20Bins%20Graph.png)
 
 ### Contract type and gender
 Contract length turned out to be one of the strongest factors in the whole dataset. Month to month customers churn at around 46 percent, compared to under 7 percent for customers on yearly contracts. Gender did not show a meaningful difference within either group.
 
-![Churn rate by contract category and gender](images/04_churn_by_contract_gender.png)
+![image alt](https://github.com/Nintencode/Power-BI-Case-Study-Analyzing-Customer-Churn/blob/main/Churn%20by%20Contract%20and%20Gender%20Graph(Multiple%20Fields).png)
 
 ### Group plans
 Customers on a shared group plan pay noticeably less per month than customers with no group at all, and their churn rate is much lower as well. This suggests that group plans are doing double duty, they lower the bill and they appear to keep customers around longer.
+![inage alt](https://github.com/Nintencode/Power-BI-Case-Study-Analyzing-Customer-Churn/blob/main/Churn%20by%20Monthy%20Charge%20and%20Groups%20Graph.png)
 
 ### Unlimited data plans
 Somewhat counterintuitively, customers on an unlimited data plan churn more than those without one, 32 percent versus 16 percent. That pattern holds even after breaking usage into consumption tiers, so the unlimited plan itself seems tied to churn risk rather than how much data someone actually uses.
